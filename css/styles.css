@@ -1,0 +1,34 @@
+/* global fonts */
+
+body {
+	background: url("../img/bg.png");
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation-all (base styling) links*/
+
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+/* Navigation-link States*/	
+
+nav a:link,
+nav a:visited {
+	background: red;
+	padding: 20px 20px 20px 40px;
+}
+
+nav a:hover,
+nav a:active {
+	background: green;
+}
+
+
+
+
+/* Helper Classes */
+.showgrid {
+	background: url("../img/grid-bg.png");
+}
